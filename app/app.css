@@ -4,4 +4,18 @@
   list-style: none;
   background-color: #3399ff;
   padding: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+.footer {
+	background-color: #3399ff;
+  padding: 15px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  background-image: url(assets/beach_background.jpg);
 }
