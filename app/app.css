@@ -3,19 +3,52 @@
 .menu {
   list-style: none;
   background-color: #3399ff;
-  padding: 10px;
+  padding: 15px;
   margin: 0px;
   width: 100%;
 }
 
 .footer {
 	background-color: #3399ff;
-  padding: 15px;
   bottom: 0;
   position: fixed;
   width: 100%;
 }
 
+.mbutton {
+  border: 2px solid #000000;
+  font-family: Futura, Tahoma, sans-serif;
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.content {
+  margin-left: 20px;
+  height: 500px;
+  width: 400px;
+  background-color: #ffffff;
+}
+
+.contact {
+  float: right;
+  margin-right: 20px;
+}
+
 body {
   background-image: url(assets/beach_background.jpg);
 }
+
+h1 {
+  color: #66E0FF;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
