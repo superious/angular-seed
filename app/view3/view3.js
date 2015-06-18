@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view3', ['ngRoute'])
+angular.module('myApp.view3', ['ngRoute', 'ngAppbase'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view3', {
@@ -9,6 +9,6 @@ angular.module('myApp.view3', ['ngRoute'])
   });
 }])
 
-.controller('View3Ctrl', [function() {
+.controller('View3Ctrl', [function($appbase) {
 
 }]);

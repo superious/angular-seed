@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp" class="no-js">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +9,24 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
   <link rel="stylesheet" href="app.css">
+  <link rel="shortcut icon" type="image/png" href="assets/newcats_logo.png"/>
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
-<body>
+<body ng-app="myApp">
   <ul class="menu">
+    <li class="title">Newcats</li>
     <li class="mbutton"><a href="#/view1">Home</a></li>
     <li class="mbutton"><a href="#/view2">Search</a></li>
-    <li class="mbutton"><a href="#/view3">Stats</a></li>
+    <li class="mbutton"><a href="#/view3">Trending</a></li>
   </ul>
 
-  <div ng-view></div>
-
-  <div class="footer">
-    <p class="contact">superious@email.com</p>
+  <div ng-view>
   </div>
 
+  <div class="footer">
+    <p class="contact">Powered by  <img src="assets/appbase.png" style="height:40px"></p>
+  </div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
@@ -37,5 +36,10 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
+  <!--Appbase dependencies-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+  <script src="https://cdn.appbase.io/latest/appbase.js"></script>
+  <script src="https://cdn.appbase.io/latest/ng-appbase.js"></script>
 </body>
 </html>
